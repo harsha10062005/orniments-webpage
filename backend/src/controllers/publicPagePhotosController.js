@@ -1,4 +1,4 @@
-import { PagePhoto } from '../models/PagePhoto.js'
+ import { PagePhoto } from '../models/PagePhoto.js'
 
 export async function listPagePhotos(req, res) {
   const { pageName } = req.params
